@@ -19,4 +19,4 @@ sudo apt-get update
 # install docker!
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
-sudo usermod -aG docker ubuntu 
+sudo usermod -aG docker $USER 
